@@ -1,0 +1,53 @@
+.Homepage{
+  margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.AboutContactPage{
+  margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.NavigationMainDiv{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.NavigationMainDivIntems{
+  background: grey;
+  color: white;
+  padding: 10px;
+  margin: auto 41px;
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+
+}
+.AvatarImage{
+  width: 169px;
+    background: gray;
+    border-radius: 90px;
+    margin-bottom: 29px;
+
+}
+.SpanTitle{
+    color: green;
+    font-variant: all-small-caps;
+    font-size: 31px;
+    margin-right: 12px;display: flex;
+    flex-direction: column;
+}
+.SpanDescription{
+  font-size: 27px;
+    color: gray;
+    margin-bottom: 18px;
+}
