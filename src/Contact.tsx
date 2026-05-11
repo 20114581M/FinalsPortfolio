@@ -71,32 +71,28 @@ export default function Contact() {
     };
     return (
         <div style={{ width: "400px", margin: "50px auto", fontFamily: "Arial" }}>
-            <h2>Contact Me</h2>
-            <form onSubmit={handleSubmit}>
+            <h2 style={{textAlign:"center"}} className="SpanTitle">Contact Me</h2>
+            <form style={{textAlign:"center"}} onSubmit={handleSubmit}>
                 <input
                 type="text"
                 name="name"
                 placeholder="Your Name"
+                className="InputField"
                 value={formData.name}
                 onChange={handleChange}
-
-
-                style={{ width: "100%", marginBottom: "10px", padding: "8px" }}
                 />
                 <input
                 type="email"
-                name="email"
+                name="email" className="InputField"
                 placeholder="Your Email"
                 value={formData.email}
                 onChange={handleChange}
-                style={{ width: "100%", marginBottom: "10px", padding: "8px" }}
                 />
                 <textarea
                 name="message"
-                placeholder="Your Message"
+                placeholder="Your Message" className="InputField"
                 value={formData.message}
                 onChange={handleChange}
-                style={{ width: "100%", marginBottom: "10px", padding: "8px" }}
                 />
                 <button
                 type="submit"

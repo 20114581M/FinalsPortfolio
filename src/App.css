@@ -51,3 +51,11 @@
     color: gray;
     margin-bottom: 18px;
 }
+.InputField{
+  width: -webkit-fill-available;
+  margin-bottom: 10px;
+  padding: 11px;
+  border: 1px solid green;
+  border-radius: 8px;
+  color: green;
+}
